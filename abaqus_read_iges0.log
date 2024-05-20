@@ -1,0 +1,143 @@
+--------------------------------------------------------------------------------
+Translator Name    : Spatial InterOp Connect ( Version : 25 0 0)
+System Name        : Windows_NT
+Machine Name       : LAPTOP-KQJ7B351
+User Name          : JEEVAN
+Source System      : IGES
+Destination System : ACIS
+Input File         : C:\Users\JEEVAN\OneDrive\Desktop\lavanya project\BCCz.IGS
+Output File        : C:\Users\JEEVAN\AppData\Local\Temp\SPAXTemp-P5980-T13064-2_SPAIop_1_Doc.sab
+Start Time         : Mon Mar 14 21:57:38 2022
+
+--------------------------------------------------------------------------------
+----------------------------Source File Scan Summary----------------------------
+
+Entity     No.Entity Type        Count    Support    Roots    Hidden    Mask-Ex
+
+100  Circular Arc                  154      Supported    0       154       0
+102  Composite Curve               140      Supported    0       140       0
+110  Line                          110      Supported    0       110       0
+120  Surface Of Revolution         38       Supported    0        38       0
+124  Transformation Matrix         142      Supported  142         0       0
+126  Rational B-Spline Curve       559      Supported    0       559       0
+128  Rational B-Spline Surface     32       Supported    0        32       0
+142  Curve On Parametric Surface   70       Supported    0         0       0
+144  Trimmed Surface               70       Supported   70         0       0
+314  Color Definition              1        Supported    1         0       0
+Message : === Translation Options ===
+Message : IGES.Brep.TrimCurveReadPreference : 0
+Message : TranslateSolidBodies : false
+Message : TranslateHiddenEntities : true
+Message : Representation : BRep+Assembly
+Message : TranslateAssemblies : true
+Message : Healing : true
+Message : ===========================
+-------------------------Source File Header Information-------------------------
+Date+Time of Creation    : 220314.213225
+Modification Date        : 14 MAR 22
+File Name                : C:\Users\JEEVAN\OneDrive\Desktop\lavanya project\BCCz.IGS
+Author                   : JEEVAN
+Organization             : Unspecified
+Source System            : SolidWorks 2019
+Sending Product ID       : BCCz
+Receiving System ID      : BCCz
+Preprocessor Version     : SolidWorks 2019
+Version                  : 5.3
+Units                    : MM
+Units ID                 : 2
+Tolerance                : 1.0E-008
+Maximum Coordinate       : 499990.0
+Model Scale              : 1.0
+Line Weight              : 1
+Line Width               : 1.0
+Document Type            : Part
+Format Type              : IGES
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Source Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start BRep
+--------------------------------------------------------------------------------
+----------------------------Source File Scan Summary----------------------------
+
+Entity     No.Entity Type        Count    Support    Roots    Hidden    Mask-Ex
+
+100  Circular Arc                  154      Supported    0       154       0
+102  Composite Curve               140      Supported    0       140       0
+110  Line                          110      Supported    0       110       0
+120  Surface Of Revolution         38       Supported    0        38       0
+124  Transformation Matrix         142      Supported  142         0       0
+126  Rational B-Spline Curve       559      Supported    0       559       0
+128  Rational B-Spline Surface     32       Supported    0        32       0
+142  Curve On Parametric Surface   70       Supported    0         0       0
+144  Trimmed Surface               70       Supported   70         0       0
+314  Color Definition              1        Supported    1         0       0
+--------------------------------------------------------------------------------
+BRep Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End BRep
+------------------------Representation Conversion Summary-----------------------
+No. of Acorn Bodies                       :    0
+No. of Mixed Bodies                       :    0
+No. of Solid Bodies                       :    70
+No. of Wire Bodies                        :    0
+No. of Free Surfaces                      :    0
+No. of Free Curves                        :    0
+No. of Sheet Bodies                       :    0
+No. of Free Points                        :    0
+--------------------------------------------------------------------------------
+BRep Conversion Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start DocumentFeature
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End DocumentFeature
+------------------------Representation Conversion Summary-----------------------
+No. of Selection Sets                     :    0
+No. of Working Coordinate Systems         :    0
+No. of Associative Groups                 :    0
+No. of Layer Filters                      :    0
+--------------------------------------------------------------------------------
+DocumentFeature Conversion Result : No Entity to Translate
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+---------------------------Document Conversion Summary--------------------------
+No. of Items of DocumentFeature Representation :    0
+No. of Items of BRep Representation            :    70
+--------------------------------------------------------------------------------
+Message : Setting save mode for ACIS file based on the file extension
+Output File "C:\Users\JEEVAN\AppData\Local\Temp\SPAXTemp-P5980-T13064-2_SPAIop_1_Doc.sab" is Successfully Written
+--------------------------------------------------------------------------------
+Finish Time : Mon Mar 14 21:57:38 2022
+
+--------------------------------------------------------------------------------
+Translation Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

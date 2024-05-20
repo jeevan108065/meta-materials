@@ -1,0 +1,54 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 6.14-5 replay file
+# Internal Version: 2015_08_18-20.07.49 135153
+# Run by JEEVAN on Mon Apr 18 13:31:47 2022
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=158.338531494141, 
+    height=134.273147583008)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+openMdb(
+    pathName='C:/Users/JEEVAN/OneDrive/Desktop/meta materials/meta_material.cae')
+#: The model database "C:\Users\JEEVAN\OneDrive\Desktop\meta materials\meta_material.cae" has been opened.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+p = mdb.models['Model-1'].parts['BCCz']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+a = mdb.models['Model-1'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(
+    optimizationTasks=OFF, geometricRestrictions=OFF, stopConditions=OFF)
+mdb.jobs['heat_transfer'].submit(consistencyChecking=OFF, datacheckJob=True)
+#: The job input file "heat_transfer.inp" has been submitted for analysis.
+mdb.jobs['heat_transfer'].kill()
+mdb.jobs['heat_transfer'].kill()
+#: Error in job heat_transfer: Process terminated by external request (SIGTERM or SIGINT received).
+#: Job heat_transfer: Analysis Input File Processor was terminated prior to analysis completion.
+mdb.jobs['heat_transfer'].submit(consistencyChecking=OFF)
+#: The job input file "heat_transfer.inp" has been submitted for analysis.
+#: Traceback (most recent call last):
+#:   File "SMAPyaModules\SMAPyaAbqPy.m\src\monitorMechanism.py", line 328, in __processCB
+#: xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 4, column 0
+#: Error in job heat_transfer: XML parsing failure for job heat_transfer.  Shutting down socket and terminating all further messages.  Please check the .log, .dat, .sta, or .msg files for information about the status of the job.
+#: Error in job heat_transfer: XML parsing failure for job heat_transfer.  Shutting down socket and terminating all further messages.  Please check the .log, .dat, .sta, or .msg files for information about the status of the job.
+#: Job heat_transfer aborted due to errors.
+#: Job heat_transfer aborted due to errors.
+mdb.jobs['heat_transfer'].submit(consistencyChecking=OFF)
+#: The job input file "heat_transfer.inp" has been submitted for analysis.
+#: Error in job heat_transfer: Detected lock file heat_transfer.lck. Please confirm that no other applications are attempting to write to the output database associated with this job before removing the lock file and resubmitting.
+#: Error in job heat_transfer: Detected lock file heat_transfer.lck. Please confirm that no other applications are attempting to write to the output database associated with this job before removing the lock file and resubmitting.
+#: Job heat_transfer aborted due to errors.
+#: Job heat_transfer aborted due to errors.
+#: Error in job heat_transfer: XML parsing failure for job heat_transfer.  Shutting down socket and terminating all further messages.  Please check the .log, .dat, .sta, or .msg files for information about the status of the job.
+#: Job heat_transfer aborted due to errors.

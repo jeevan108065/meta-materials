@@ -1,0 +1,41 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 6.14-5 replay file
+# Internal Version: 2015_08_18-20.07.49 135153
+# Run by JEEVAN on Wed Jun 22 09:23:03 2022
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=158.338531494141, 
+    height=134.273147583008)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+openMdb(
+    pathName='C:/Users/JEEVAN/OneDrive/Desktop/meta materials/meta_material.cae')
+#: The model database "C:\Users\JEEVAN\OneDrive\Desktop\meta materials\meta_material.cae" has been opened.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+p = mdb.models['Model-1'].parts['BCCz']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+p1 = mdb.models['Model-1'].parts['end_plate']
+session.viewports['Viewport: 1'].setValues(displayedObject=p1)
+del mdb.models['Model-1'].parts['end_plate']
+p = mdb.models['Model-1'].parts['BCCz']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+del mdb.models['Model-1'].parts['BCCz']
+iges = mdb.openIges(
+    'C:/Users/JEEVAN/OneDrive/Desktop/meta materials/metamaterial BCC 5mm.igs', 
+    msbo=False, trimCurve=DEFAULT, scaleFromFile=OFF)
+mdb.models['Model-1'].PartFromGeometryFile(name='metamaterial BCC 5mm', 
+    geometryFile=iges, combine=False, stitchTolerance=1.0, 
+    dimensionality=THREE_D, type=DEFORMABLE_BODY, convertToAnalytical=1, 
+    stitchEdges=1)
+#* ipc_CONNECTION_BROKEN

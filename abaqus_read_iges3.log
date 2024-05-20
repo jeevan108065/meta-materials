@@ -1,0 +1,225 @@
+--------------------------------------------------------------------------------
+Translator Name    : Spatial InterOp Connect ( Version : 25 0 0)
+System Name        : Windows_NT
+Machine Name       : LAPTOP-KQJ7B351
+User Name          : JEEVAN
+Source System      : IGES
+Destination System : ACIS
+Input File         : C:\Users\JEEVAN\OneDrive\Desktop\meta materials\metamaterial BCC 5mm.igs
+Output File        : C:\Users\JEEVAN\AppData\Local\Temp\SPAXTemp-P23220-T22412-2_SPAIop_1_Doc.sab
+Start Time         : Wed Jun 22 11:54:30 2022
+
+--------------------------------------------------------------------------------
+----------------------------Source File Scan Summary----------------------------
+
+Entity     No.Entity Type        Count    Support    Roots    Hidden    Mask-Ex
+
+100  Circular Arc                  1712     Supported    0      1712       0
+102  Composite Curve               85022    Supported    0     85022       0
+108  Plane                         10       Supported    0        10       0
+110  Line                          180952    Supported    0    180952       0
+120  Surface Of Revolution         14400    Supported    0     14400       0
+124  Transformation Matrix         1712     Supported    0      1712       0
+126  Rational B-Spline Curve       256376    Supported    0    256376       0
+128  Rational B-Spline Surface     33600    Supported    0     33600       0
+142  Curve On Parametric Surface   49874    Supported    0     49874       0
+144  Trimmed Surface               48050    Supported48050         0       0
+406  Property Entity               1    Not Supported    0         0       0
+Message : === Translation Options ===
+Message : IGES.Brep.TrimCurveReadPreference : 0
+Message : TranslateSolidBodies : false
+Message : TranslateHiddenEntities : true
+Message : Representation : BRep+Assembly
+Message : TranslateAssemblies : true
+Message : Healing : true
+Message : ===========================
+-------------------------Source File Header Information-------------------------
+Date+Time of Creation    : 20220621.230939
+Modification Date        : 
+File Name                : metamaterial BCC 5mm.igs
+Author                   : JEEVAN
+Organization             : LAPTOP-KQJ7B351
+Source System            : DASSAULT SYSTEMES CATIA V5 R21 - www.3ds.com
+Sending Product ID       : BCCz
+Receiving System ID      : BCCz
+Preprocessor Version     : CATIA Version 5 Release 21 
+Version                  : 5.3
+Units                    : MM
+Units ID                 : 2
+Tolerance                : 0.001
+Maximum Coordinate       : 10000.0
+Model Scale              : 1.0
+Line Weight              : 1
+Line Width               : 1.0
+Document Type            : Part
+Format Type              : IGES
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Source Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start BRep
+--------------------------------------------------------------------------------
+----------------------------Source File Scan Summary----------------------------
+
+Entity     No.Entity Type        Count    Support    Roots    Hidden    Mask-Ex
+
+100  Circular Arc                  1712     Supported    0      1712       0
+102  Composite Curve               85022    Supported    0     85022       0
+108  Plane                         10       Supported    0        10       0
+110  Line                          180952    Supported    0    180952       0
+120  Surface Of Revolution         14400    Supported    0     14400       0
+124  Transformation Matrix         1712     Supported    0      1712       0
+126  Rational B-Spline Curve       256376    Supported    0    256376       0
+128  Rational B-Spline Surface     33600    Supported    0     33600       0
+142  Curve On Parametric Surface   49874    Supported    0     49874       0
+144  Trimmed Surface               48050    Supported48050         0       0
+406  Property Entity               1    Not Supported    0         0       0
+--------------------------------------------------------------------------------
+BRep Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+Warning : Ignoring face with invalid loop
+--------------------------------------------------------------------------------
+BRep Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+BRep Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End BRep
+------------------------Representation Conversion Summary-----------------------
+No. of Acorn Bodies                       :    0
+No. of Mixed Bodies                       :    0
+No. of Solid Bodies                       :    47970
+No. of Wire Bodies                        :    0
+No. of Free Surfaces                      :    0
+No. of Free Curves                        :    0
+No. of Sheet Bodies                       :    0
+No. of Free Points                        :    0
+--------------------------------------------------------------------------------
+BRep Conversion Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start DocumentFeature
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+DocumentFeature Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End DocumentFeature
+------------------------Representation Conversion Summary-----------------------
+No. of Selection Sets                     :    0
+No. of Working Coordinate Systems         :    0
+No. of Associative Groups                 :    0
+No. of Layer Filters                      :    0
+--------------------------------------------------------------------------------
+DocumentFeature Conversion Result : No Entity to Translate
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+---------------------------Document Conversion Summary--------------------------
+No. of Items of DocumentFeature Representation :    0
+No. of Items of BRep Representation            :    47970
+--------------------------------------------------------------------------------
+Message : Setting save mode for ACIS file based on the file extension
+Output File "C:\Users\JEEVAN\AppData\Local\Temp\SPAXTemp-P23220-T22412-2_SPAIop_1_Doc.sab" is Successfully Written
+--------------------------------------------------------------------------------
+Finish Time : Wed Jun 22 11:56:04 2022
+
+--------------------------------------------------------------------------------
+Translation Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
