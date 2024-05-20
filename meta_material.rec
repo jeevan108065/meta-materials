@@ -1,0 +1,24 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['Model-1'].parts['end_plate']
+del mdb.models['Model-1'].parts['BCCz']
+mdb.openIges(
+    'C:/Users/JEEVAN/OneDrive/Desktop/meta materials/metamaterial BCC 5mm.igs', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+mdb.models['Model-1'].PartFromGeometryFile(combine=False, convertToAnalytical=1
+    , dimensionality=THREE_D, geometryFile=mdb.acis, name=
+    'metamaterial BCC 5mm', stitchEdges=1, stitchTolerance=1.0, type=
+    DEFORMABLE_BODY)
+#* ipc_CONNECTION_BROKEN
